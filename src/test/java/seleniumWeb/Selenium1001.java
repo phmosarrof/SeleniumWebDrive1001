@@ -15,6 +15,10 @@ public class Selenium1001 {
 		//System.out.println(driver.getPageSource());
 		System.out.println(driver.getWindowHandle());
 		System.out.println(driver.getClass());
+		driver.navigate().to("https://yahoo.com");
+		driver.navigate().back();
+		driver.navigate().forward();
+		driver.close();
 	
 
 	}

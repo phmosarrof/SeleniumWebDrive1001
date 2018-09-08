@@ -5,12 +5,13 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>SeleniumWebDrive1001</name>
   <description>SeleniumWebDrive1001</description>
-  
+  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+ 
   <dependencies>
   	<dependency>
-  		<groupId>org.seleniumhq.selenium</groupId>
-  		<artifactId>selenium-java</artifactId>
-  		<version>3.13.0</version>
-  	</dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>3.14.0</version>
+    </dependency>
   </dependencies>
 </project>
